@@ -8,7 +8,7 @@ public class MySQL {
 
     private static final String url = getCFG("sql-url");
     private static final String user = getCFG("sql-user");
-    private static final String password = getCFG("password");
+    private static final String password = getCFG("sql-password");
 
     private static Connection connection;
     private static Statement statement;
@@ -40,5 +40,23 @@ public class MySQL {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
+    }
+
+    public static void setup(String nametag, Long id, Boolean slots) throws SQLException {
+        String query = "INSERT INTO products (nametag, id, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11, slot12) VALUES (" + "'"+ nametag + "'" + ", " + id + ", "
+                + slots + ", "
+                + slots + ", "
+                + slots + ", "
+                + slots + ", "
+                + slots + ", "
+                + slots + ", "
+                + slots + ", "
+                + slots + ", "
+                + slots + ", "
+                + slots + ", "
+                + slots + ", "
+                + slots +  ");";
+
+        statement.executeUpdate(query);
     }
 }

@@ -1,5 +1,7 @@
 package me.nelson131.store;
 
+import me.nelson131.store.commands.CommandsManager;
+import me.nelson131.store.commands.Setup;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;
 import net.dv8tion.jda.api.entities.Activity;
@@ -24,6 +26,7 @@ public class Store {
         jda = JDABuilder.createDefault(getCFG("bot-token"))
                 .enableIntents(GatewayIntent.MESSAGE_CONTENT)
                 .setActivity(Activity.watching(getCFG("activity-watching")))
+                .addEventListeners(new CommandsManager(), new Setup())
                 .build();
 
         jda.awaitReady();
