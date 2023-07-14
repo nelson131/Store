@@ -11,6 +11,7 @@ import java.sql.SQLException;
 import java.util.EnumSet;
 
 import static me.nelson131.store.db.MySQL.setup;
+import static me.nelson131.store.utils.MessageHolder.categoriesMessage;
 import static me.nelson131.store.utils.Properties.getCFG;
 
 public class Setup extends ListenerAdapter {
@@ -29,7 +30,7 @@ public class Setup extends ListenerAdapter {
                 TextChannel channel = guild.createTextChannel(nametag, category)
                         .addPermissionOverride(guild.getPublicRole(), EnumSet.of(Permission.VIEW_CHANNEL), EnumSet.of(Permission.CREATE_PUBLIC_THREADS, Permission.CREATE_PRIVATE_THREADS, Permission.MESSAGE_SEND))
                         .complete();
-                channel.sendMessage("TEXT TEXT TEXT").queue();
+                channel.sendMessageEmbeds(categoriesMessage(nametag)).queue();
 
                 Long id = channel.getIdLong();
                 Boolean slots = false;
@@ -44,7 +45,9 @@ public class Setup extends ListenerAdapter {
             }
 
             //TODO repair: ERROR RestAction - RestAction queue returned failure: [ErrorResponseException] 10062: Unknown interaction
-            event.reply("finish").queue();
+//            event.reply("finish").queue();
+            //same
+            event.deferReply().queue();
 
         }
     }

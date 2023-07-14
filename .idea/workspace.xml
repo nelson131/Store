@@ -5,21 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ca340e6-8ab7-4b47-a401-d4b7824c3596" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/nelson131/store/commands/CommandsManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/nelson131/store/commands/Setup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/nelson131/store/utils/MessageHolder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.0/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/nelson131/store/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/nelson131/store/Store.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/me/nelson131/store/db/MySQL.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/me/nelson131/store/db/MySQL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Setup.class.uniqueId0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/compileTransaction/stash-dir/Store.class.uniqueId1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/nelson131/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/nelson131/store/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/nelson131/store/db/MySQL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/nelson131/store/db/MySQL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/nelson131/store/commands/CommandsManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/nelson131/store/commands/CommandsManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/nelson131/store/commands/Setup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/nelson131/store/commands/Setup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/nelson131/store/utils/MessageHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/nelson131/store/utils/MessageHolder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,12 +37,7 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="Store" type="f1a62948:ProjectNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -66,13 +62,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Dmitriy/Documents/GitHub/CWBank"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Dmitriy/Documents/GitHub/CWBank&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Store" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Store" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
